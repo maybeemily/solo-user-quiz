@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <title>Soup Quiz</title>
+</head>
+<body>
+    <header><h1>What kind of S O U P are you<span id="user-name"></span>?</h1></header>
+    <main>
+        <form id="soup-form">
+            <fieldset>
+                <legend>How smooth are you?</legend>
+
+                <label for="rough">Kinda Rough</label>
+                <input type="radio" name="smoothness" id="rough" value="rough">
+
+                <label for="chunky">Chunky</label>
+                <input type="radio" name="smoothness" id="chunky" value="chunky">
+                
+                <label for="mashed">Mashed Up</label>
+                <input type="radio" name="smoothness" id="mashed" value="mashed">
+
+                <label for="pureed">Pureed</label>
+                <input type="radio" name="smoothness" id="pureed" value="pureed">
+            </fieldset>
+
+            <fieldset>
+                <legend>How much do you like vegetables?</legend>
+                <input type="range" min="1" max="10" id="vegetables"><span id="veg-level"></span>
+            </fieldset>
+
+            <fieldset>
+                <legend>What color do you like best?</legend>
+
+                <label for="red">Red</label>
+                <input type="radio" name="color" id="red" value="red">
+
+                <label for="yellow">Yellow</label>
+                <input type="radio" name="color" id="yellow" value="yellow">
+
+                <label for="brown">Brown</label>
+                <input type="radio" name="color" id="brown" value="brown">
+
+                <label for="technicolor">Technicolor</label>
+                <input type="radio" name="color" id="technicolor" value="technicolor">
+
+            </fieldset>
+
+            <button>WHAT SOUP ARE YOU?</button>
+        </form>
+    </main>
+    <footer></footer>
+<script type="module" src="src/quiz.js"></script>
+</body>
+</html>

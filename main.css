@@ -1,0 +1,28 @@
+fieldset {
+    margin: 20px;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+}
+
+#soup-result {
+    font-size: 36px;
+    text-align: center;
+    background-color: #BA3F1D;
+    color: white;
+
+}
+
+legend {
+    background-color: #80A1c1;
+    color: white;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+input {
+    margin: 10px;
+}
+
